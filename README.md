@@ -43,6 +43,7 @@ The parameters in the picture:
 - The possibility of people geting infection symptoms during incubation period who haven been isolated: iso_s = 0.13
 (Some of the value of parameters referenced <u>[this papper](http://www.zjujournals.com/med/CN/10.3785/j.issn.1008-9292.2020.02.05)</u>
 
+
 So according to SEIR model, we can have the following formulas:
 
 dS/dt = v·Sq-(I+E)·S·c·(iso·(1-b)+b)
@@ -60,6 +61,7 @@ dEq/dt = (I+E)·b·c·iso·S - Eq·iso_s - Eq·iso_r
 dH/dt = Eq·iso_s + I·iso_i - H·d - H·iso_r
 
 dD/dt = H·d+I·d
+
 
 Then we have to give the initial value:
 (According to the data on April 1st in Japan.)
@@ -80,6 +82,11 @@ Sq[0] = 29895
 
 R[0] = 456
 
+H[0] = 60
+
 D[0] = 57
+
+![Figure](/Flows.PNG "Flows between the states")
+
     
 
