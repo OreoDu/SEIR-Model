@@ -2,7 +2,7 @@
 Prediction of COVID-19 Epidemic Situation Based on Improved SEIR Model
 
 ### Overview
-In this project, I mainly use covid-19 data(<u>[data sources](https://www.mhlw.go.jp/stf/newpage_10651.html)</u>) from Japan in April to predict the possible development of epidemic situation in the next 100 days based on SEIR model.
+In this project, I mainly use covid-19 data(<u>[data sources](https://www.mhlw.go.jp/stf/newpage_10651.html)</u>) from Japan in April to predict the possible development of epidemic situation in the next 30 days based on SEIR model.
 
 ### Model description
 The SEIR models the flows of people between four states:
