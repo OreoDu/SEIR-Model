@@ -98,7 +98,7 @@ Recently, the Japanese government announced a state of emergency and began to ta
 #### The impact of isolation rate:
 In order to control the epidemic situation, strict medical tracing and isolation are needed. This time, the effect of tracking isolation measures was simulated by analyzing the impact of the decrease and increase of tracking isolation ratio. As shown in the figure below, when the isolation ratio drops to 0.5 times, the rising rate and peak value of the number of infected people will increase. When the ratio of isolation increased, the number of infected people gradually decreased. It can be seen that strict medical tracking and isolation is an effective ways to prevent the development of the epidemic.
 
-![Figure](//Figure_the%20impact%20of%20isolation.png "The impact of isolation rate")
+![Figure](/Figure_the%20impact%20of%20isolation.png "The impact of isolation rate")
 
     
 
