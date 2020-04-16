@@ -93,12 +93,12 @@ So now we can see the prediction of trends in epidemic in the next 30 days if th
 #### The impact of contact rate:
 Recently, the Japanese government announced a state of emergency and began to take necessary prevention and control measures, such as restricting gatherings, theater performances and other crowd gathering activities. These prevention and control measures are essentially to reduce the contact rate of susceptible people. Under normal control straties, it is assumed that the current contact rate is 2. By increasing the exposure rate to simulate the trend of covid-19.The figure below shows a simulation of the epidemic with a higher and a lower probability of contact.It is found that the strict control has a good inhibitory effect on the large-scale development of current epidemic. If there is no prevention and control isolation, the number of infected people will increase rapidly.
 
-![Figure](/Figure_the impact of control.png "The impact of contact rate")
+![Figure](/Figure_the%20impact%20of%20control.png "The impact of contact rate")
 
 #### The impact of isolation rate:
 In order to control the epidemic situation, strict medical tracing and isolation are needed. This time, the effect of tracking isolation measures was simulated by analyzing the impact of the decrease and increase of tracking isolation ratio. As shown in the figure below, when the isolation ratio drops to 0.5 times, the rising rate and peak value of the number of infected people will increase. When the ratio of isolation increased, the number of infected people gradually decreased. It can be seen that strict medical tracking and isolation is an effective ways to prevent the development of the epidemic.
 
-![Figure](/Figure_the impact of isolation.png "The impact of isolation rate")
+![Figure](//Figure_the%20impact%20of%20isolation.png "The impact of isolation rate")
 
     
 
