@@ -27,7 +27,8 @@ Based on those, we can have some assumptions:
 
 
 The flows between those states canbe showed as follow:
-- ![Flows](/Flows.PNG "Flows between the states")
+
+![Flows](/Flows.PNG "Flows between the states")
 
 The parameters in the picture:
 - The contact rate: c = 2
@@ -43,25 +44,42 @@ The parameters in the picture:
 (Some of the value of parameters referenced <u>[this papper](http://www.zjujournals.com/med/CN/10.3785/j.issn.1008-9292.2020.02.05)</u>
 
 So according to SEIR model, we can have the following formulas:
+
 dS/dt = v·Sq-(I+E)·S·c·(iso·(1-b)+b)
+
 dE/dt = b·(I+E)·S·(1-iso)·c -E·s - r·E
+
 dI/dt = E·s - I·iso_i - I·r - I·d
+
 dR/dt = I·r + r·E + H·iso_r + Eq·iso_r
+
 dSq/dt = (I+E)·S·c·iso·(1-b) - v·Sq 
+
 dEq/dt = (I+E)·b·c·iso·S - Eq·iso_s - Eq·iso_r
+
 dH/dt = Eq·iso_s + I·iso_i - H·d - H·iso_r
+
 dD/dt = H·d+I·d
 
 Then we have to give the initial value:
 (According to the data on April 1st in Japan.)
+
 N0 = 127749000 #The population of Japan
+
 N[0] = N0
+
 E[0] = 1290
+
 S[0] = N[0] - E[0] - I[0] - R[0] - D[0] - Sq[0] -Eq[0]
+
 I[0] = 1594
+
 Eq[0] = 2107
+
 Sq[0] = 29895
+
 R[0] = 456
+
 D[0] = 57
     
 
